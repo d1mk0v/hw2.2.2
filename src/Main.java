@@ -16,12 +16,12 @@ public class Main {
 
         ServiceStation station = new ServiceStation();
 
-        station.check(toyota, null, null);
-        station.check(ferrari, null, null);
-        station.check(null, giant, null);
-        station.check(null, trek, null);
-        station.check(null, null, volvo);
-        station.check(null, null, man);
+        station.service(toyota);
+        station.service(ferrari);
+        station.service(giant);
+        station.service(trek);
+        station.service(volvo);
+        station.service(man);
     }
 }
 
